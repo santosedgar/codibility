@@ -10,10 +10,15 @@ namespace Codibility.Problems.Sorting
     {
         public static int solution(int[] A)
         {
-            int result = 0;
+            HashSet<int> hashSet = new HashSet<int>();
 
+            for(int i =0; i< A.Length; i++)
+            {
+                if (!hashSet.Contains(A[i]))
+                    hashSet.Add(A[i]);
+            }
 
-            return result;
+            return hashSet.Count;
         }
     }
 }

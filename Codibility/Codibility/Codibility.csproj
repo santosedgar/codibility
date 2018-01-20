@@ -49,6 +49,7 @@
     <Compile Include="Problems\CountingElements\PermCheck.cs" />
     <Compile Include="Problems\Iterations\BinaryGap.cs" />
     <Compile Include="Problems\Leader\Dominator.cs" />
+    <Compile Include="Problems\BinarySearch\MinMaxDivision.cs" />
     <Compile Include="Problems\PrimeNumbers\CountFactors.cs" />
     <Compile Include="Problems\Sorting\Distinct.cs" />
     <Compile Include="Problems\TimeComplexity\FromJmp.cs" />
