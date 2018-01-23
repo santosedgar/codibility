@@ -45,6 +45,7 @@
     <Compile Include="Problems\Arrays\CyclicRotation.cs" />
     <Compile Include="Problems\Arrays\OddOccurrencesInArray.cs" />
     <Compile Include="Problems\CountingElements\FrogRiverOne.cs" />
+    <Compile Include="Problems\CountingElements\MaxCounters.cs" />
     <Compile Include="Problems\CountingElements\MissingInteger.cs" />
     <Compile Include="Problems\CountingElements\PermCheck.cs" />
     <Compile Include="Problems\Iterations\BinaryGap.cs" />
