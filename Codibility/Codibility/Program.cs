@@ -23,7 +23,10 @@ namespace Codibility
 
             //Debug.WriteLine(String.Join(",", MaxCounters.solution(5, new int[] { 3,4,4,6,1,4,4 })));
 
-            Debug.WriteLine(CountDiv.solution(10, 20, 2));
+            //Debug.WriteLine(CountDiv.solution(10, 20, 2));
+
+            Debug.WriteLine(PassingCars.solution(new int[] { 1,0,1 }));
+
         }
     }
 }
