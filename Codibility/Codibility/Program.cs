@@ -1,4 +1,5 @@
-﻿using Codibility.Problems.BinarySearch;
+﻿using Codibility.Problems;
+using Codibility.Problems.BinarySearch;
 using Codibility.Problems.CountingElements;
 using Codibility.Problems.Leader;
 using Codibility.Problems.PrimeNumbers;
@@ -20,7 +21,7 @@ namespace Codibility
             //Debug.WriteLine(CountFactors.solution(24));
 
             //Debug.WriteLine(Dominator.solution(new int[] { 3, 4, 3, 2, 3, -1, 3, 3 }));
-            Debug.WriteLine(MinMaxDivision.solution(3 , 5, new int[] { 2,1,5,1,2,2,2 }));
+            Debug.WriteLine(Teste.solution3(new int[] { 4, 3, 2, 6, 1 }));
         }
     }
 }

@@ -52,6 +52,8 @@
     <Compile Include="Problems\BinarySearch\MinMaxDivision.cs" />
     <Compile Include="Problems\PrimeNumbers\CountFactors.cs" />
     <Compile Include="Problems\Sorting\Distinct.cs" />
+    <Compile Include="Problems\StackQueue\Brackets.cs" />
+    <Compile Include="Problems\Teste.cs" />
     <Compile Include="Problems\TimeComplexity\FromJmp.cs" />
     <Compile Include="Problems\TimeComplexity\PermMissingElem.cs" />
     <Compile Include="Problems\TimeComplexity\TapeEquilibrium.cs" />
