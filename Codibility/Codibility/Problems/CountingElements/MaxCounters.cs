@@ -19,13 +19,13 @@ namespace Codibility.Problems.CountingElements
                 current = A[i];
                 if (current >= 1 && current <= N)
                 {
-                    if (counters[current - 1] <= maxInner)
-                        counters[current - 1] = maxInner + 1;
-                    else if(counters[current - 1] > maxInner)
-                    {
-                        counters[current - 1] = counters[current - 1] + 1;
+                    if (max > counters[current - 1])
+                        counters[current - 1] = max;
+
+                    counters[current - 1] = counters[current - 1] + 1;
+
+                    if (maxInner < counters[current - 1])
                         maxInner = counters[current - 1];
-                    }
                 }
                 else if(current == N + 1)
                 {
