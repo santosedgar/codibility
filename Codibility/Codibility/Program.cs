@@ -4,6 +4,7 @@ using Codibility.Problems.CountingElements;
 using Codibility.Problems.Leader;
 using Codibility.Problems.PrefixSums;
 using Codibility.Problems.PrimeNumbers;
+using Codibility.Problems.StackQueue;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -26,7 +27,8 @@ namespace Codibility
             //Debug.WriteLine(CountDiv.solution(10, 20, 2));
 
             //Debug.WriteLine(PassingCars.solution(new int[] { 1,0,1 }));
-            Debug.WriteLine(MinPerimeterRectangle.solution(30));
+            //Debug.WriteLine(MinPerimeterRectangle.solution(30));
+            Debug.WriteLine(Nesting.solution("(()(())())"));
         }
     }
 }

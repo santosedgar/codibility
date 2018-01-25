@@ -57,6 +57,7 @@
     <Compile Include="Problems\PrimeNumbers\MinPerimeterRectangle.cs" />
     <Compile Include="Problems\Sorting\Distinct.cs" />
     <Compile Include="Problems\StackQueue\Brackets.cs" />
+    <Compile Include="Problems\StackQueue\Nesting.cs" />
     <Compile Include="Problems\Teste.cs" />
     <Compile Include="Problems\TimeComplexity\FromJmp.cs" />
     <Compile Include="Problems\TimeComplexity\PermMissingElem.cs" />
