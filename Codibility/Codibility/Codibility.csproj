@@ -54,6 +54,7 @@
     <Compile Include="Problems\PrefixSums\CountDiv.cs" />
     <Compile Include="Problems\PrefixSums\PassingCars.cs" />
     <Compile Include="Problems\PrimeNumbers\CountFactors.cs" />
+    <Compile Include="Problems\PrimeNumbers\MinPerimeterRectangle.cs" />
     <Compile Include="Problems\Sorting\Distinct.cs" />
     <Compile Include="Problems\StackQueue\Brackets.cs" />
     <Compile Include="Problems\Teste.cs" />

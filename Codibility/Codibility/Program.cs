@@ -25,8 +25,8 @@ namespace Codibility
 
             //Debug.WriteLine(CountDiv.solution(10, 20, 2));
 
-            Debug.WriteLine(PassingCars.solution(new int[] { 1,0,1 }));
-
+            //Debug.WriteLine(PassingCars.solution(new int[] { 1,0,1 }));
+            Debug.WriteLine(MinPerimeterRectangle.solution(30));
         }
     }
 }
